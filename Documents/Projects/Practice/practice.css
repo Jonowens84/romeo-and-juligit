@@ -1,0 +1,26 @@
+#box {
+width: 100px;
+height: 100px;
+border: 2px solid black;
+}
+
+@media screen and (max-width:300px)
+  body {
+      
+  }
+
+
+/*At 300px or less, we should have:
+- a font of Dancing Script from Google Fonts
+- a background color of palegoldenrod
+- a box with rounded border of 100%;
+
+At between 301px and 600px, we should have:
+- a font of Lobster from Google Fonts
+- a background color of lightblue
+- a box with rounded border of 10%;
+
+At greater than 900px, we should have:
+- a font of Ubuntu from Google Fonts
+- a background color of fuscia
+- a box with rounded border of 0% and a dotted border;
